@@ -1,0 +1,14 @@
+/* Notifications.css */
+.form-card        { background: #fff; border-radius: 10px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 16px; }
+.form-card__title { font-size: 15px; font-weight: 600; color: #1a202c; }
+.form-group       { display: flex; flex-direction: column; gap: 6px; }
+.form-label       { font-size: 13px; font-weight: 500; color: #6b7280; }
+.form-input       { padding: 9px 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 14px; font-family: 'Segoe UI', system-ui, sans-serif; color: #1a202c; outline: none; transition: border-color 0.15s; }
+.form-input:focus { border-color: #3b5bdb; box-shadow: 0 0 0 3px rgba(59,91,219,0.1); }
+.form-textarea    { resize: vertical; min-height: 90px; }
+
+.info-note       { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 12px 16px; font-size: 13px; color: #1e40af; line-height: 1.5; }
+.notif-info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.notif-info-item { display: flex; flex-direction: column; gap: 8px; padding: 14px; background: #f8fafc; border-radius: 6px; border: 1px solid #e2e8f0; font-size: 13px; color: #6b7280; line-height: 1.5; }
+
+@media (max-width: 600px) { .notif-info-grid { grid-template-columns: 1fr; } }

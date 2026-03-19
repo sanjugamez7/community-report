@@ -1,0 +1,11 @@
+/* Profile.css */
+.form-card        { background: #fff; border-radius: 10px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); display: flex; flex-direction: column; gap: 16px; }
+.form-card__title { font-size: 15px; font-weight: 600; color: #1a202c; }
+.form-group       { display: flex; flex-direction: column; gap: 6px; }
+.form-label       { font-size: 13px; font-weight: 500; color: #6b7280; }
+.form-input       { padding: 9px 12px; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 14px; font-family: 'Segoe UI', system-ui, sans-serif; color: #1a202c; outline: none; transition: border-color 0.15s; }
+.form-input:focus { border-color: #3b5bdb; box-shadow: 0 0 0 3px rgba(59,91,219,0.1); }
+
+.profile-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+
+@media (max-width: 768px) { .profile-grid { grid-template-columns: 1fr; } }

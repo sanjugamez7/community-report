@@ -1,0 +1,15 @@
+/* Sidebar.css */
+.sidebar            { position: fixed; top: 0; left: 0; height: 100vh; width: 240px; background: #1e2a4a; display: flex; flex-direction: column; z-index: 100; }
+
+.sidebar__logo      { display: flex; align-items: center; gap: 12px; padding: 20px 18px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.sidebar__logo-icon { width: 36px; height: 36px; background: #3b5bdb; color: white; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; }
+.sidebar__logo-text { color: white; font-weight: 600; font-size: 15px; }
+
+.sidebar__nav     { flex: 1; padding: 16px 10px; display: flex; flex-direction: column; gap: 4px; }
+.sidebar__item    { display: flex; align-items: center; gap: 12px; padding: 11px 12px; border-radius: 6px; border: none; background: transparent; color: #a8b4d4; cursor: pointer; font-size: 14px; font-family: 'Segoe UI', system-ui, sans-serif; transition: background 0.15s, color 0.15s; width: 100%; text-align: left; }
+.sidebar__item:hover   { background: #2a3a60; color: #e0e8ff; }
+.sidebar__item--active { background: #3b5bdb; color: white; font-weight: 600; }
+.sidebar__icon         { flex-shrink: 0; display: flex; align-items: center; }
+
+.sidebar__logo-sub  { color: #a8b4d4; font-size: 11px; margin-top: 2px; }
+.sidebar__logo-text { color: white; font-weight: 600; font-size: 13px; line-height: 1.3; }
